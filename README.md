@@ -3,6 +3,26 @@
 Anomaly detection on the Kaggle Credit Card Fraud dataset
 (284,807 transactions | 0.172% fraud prevalence)
 
+## 📁 Project Structure
+fraud-detection-ml/
+│
+├── data/                        ← Dataset goes here (see setup below)
+│   └── creditcard.csv           ← NOT committed to GitHub
+│
+├── notebooks/
+│   └── fraud_detection.ipynb    ← Main notebook (all steps)
+│
+├── outputs/
+│   ├── class_distribution.png
+│   ├── amount_distribution.png
+│   ├── model_comparison.png
+│   ├── confusion_matrices.png
+│   └── results_summary.csv
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
+
 ## Problem
 Financial fraud detection is a classic imbalanced classification problem.
 Standard ML models fail because fraud represents <0.2% of transactions.
