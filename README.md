@@ -4,6 +4,7 @@ Anomaly detection on the Kaggle Credit Card Fraud dataset
 (284,807 transactions | 0.172% fraud prevalence)
 
 ## 📁 Project Structure
+```text
 fraud-detection-ml/
 ├── data/               ← put your dataset here
 ├── notebooks/
@@ -11,6 +12,7 @@ fraud-detection-ml/
 ├── outputs/            ← saved plots go here
 ├── README.md
 └── requirements.txt
+```
 
 ## Problem
 Financial fraud detection is a classic imbalanced classification problem.
